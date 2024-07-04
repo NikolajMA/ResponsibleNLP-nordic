@@ -9,7 +9,7 @@
             {"descriptor": "learning-disabled", "preference": "dispreferred"},
             {"descriptor": "retarded", "preference": "dispreferred"},
             {"descriptor": "slow", "preference": "dispreferred"}
-        ],
+        ],  
         "mobility": [
             {"descriptor": "crippled", "preference": "dispreferred"},
             {"descriptor": "paraplegic", "preference": "dispreferred"},

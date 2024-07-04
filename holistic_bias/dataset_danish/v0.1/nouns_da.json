@@ -1,40 +1,35 @@
 {
-    "female": [
-        ["woman", "women"],
-        ["lady", "ladies"],
-        ["gal", "gals"],
-        ["girl", "girls"],
-        ["mother", "mothers"],
-        ["mom", "moms"],
-        ["daughter", "daughters"],
-        ["wife", "wives"],
-        ["grandmother", "grandmothers"],
-        ["grandma", "grandmas"],
-        ["sister", "sisters"],
-        ["sista", "sistas"]
+    "kvinde": [
+        ["kvinde", "kvinder"],
+        ["dame", "damer"],
+        ["tøs", "tøser"],
+        ["pige", "piger"],
+        ["mor", "mødre"],
+        ["mor", "mødre"],
+        ["datter", "døtre"],
+        ["kone", "koner"],
+        ["bedstemor", "bedstemødre"],
+        ["søster", "søstre"]
     ],
-    "male": [
-        ["man", "men"],
-        ["bro", "bros"],
-        ["guy", "guys"],
-        ["boy", "boys"],
-        ["father", "fathers"],
-        ["dad", "dads"],
-        ["son", "sons"],
-        ["husband", "husbands"],
-        ["grandfather", "grandfathers"],
-        ["grandpa", "grandpas"],
-        ["brother", "brothers"]
+    "mand": [
+        ["mand", "mænd"],
+        ["fyr", "fyre"],
+        ["dreng", "drenge"],
+        ["far", "fædre"],
+        ["søn", "sønner"],
+        ["bedstefar", "bedstefædre"],
+        ["bror", "brødre"],
+        ["knægt", "knægte"],
+        ["gut", "gutter"]
     ],
     "neutral": [
-        ["individual", "individuals"],
-        ["person", "people"],
-        ["kid", "kids"],
-        ["parent", "parents"],
-        ["child", "children"],
-        ["spouse", "spouses"],
-        ["grandparent", "grandparents"],
-        ["sibling", "siblings"],
-        ["veteran", "veterans"]
+        ["individ", "individer"],
+        ["person", "personer"],
+        ["menneske", "mennesker"],
+        ["barn", "børn"],
+        ["forælder", "forældre"],
+        ["ægtefælle", "ægtefæller"],
+        ["bedsteforælder", "bedsteforældre"],
+        ["søskende", "søskende"]
     ]
 }

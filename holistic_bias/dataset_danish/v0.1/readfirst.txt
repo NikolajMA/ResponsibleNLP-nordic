@@ -3,17 +3,19 @@ Dette er en dansk version af det engelske HolisticBias datasæt, formålet med d
 at lave en omfattende og divers samling af demografiske og identitets-relaterede termer, 
 der faciliterer skabelsen af templates og syntetisk data til danske/nordiske bias tests.
 
-Datasættet indeholder mange grupper og termer, og de behøver naturligvis ikke alle blive inkorporeret i diverse tests. 
+Datasættet indeholder mange grupper og termer, og de behøver naturligvis ikke alle blive inkorporeret i efterfølgende evalueringer. 
 Vi fokuserer primært på :
 
 Gender, Age, Ethnicity, Religion, Sexual orientation, Disability + (Class / social status / income / education)
 
 Nogle ord kunne oversættes direkte fra det engelske, hvoraf andre der er specifikke for det danske sprog
 er tilføjet manuelt. Beskrivende termer der knytter sig til indentiteter og sociale grupper er tilpasset til et dansk kontekst
-ved hjælp af ressourcer som: mellemfolkelig samvirke, Institut for menneskerettigheder, Det kriminalpræventive råd, 
+ved hjælp af ressourcer som: mellemfolkelig samvirke, Institut for menneskerettigheder, Det kriminalpræventive råd, LGBTQ+ Danmark og dansk statistik
 
 
 I den oprindelige version har eksperter gennemgået samtlige termer og vurderet hvorvidt de er "prefered" eller "disprefered". 
-Dette er ikke gjort (endnu) for denne version. Derfor ignorer "preference" indtil dette er gennemgået. Nogle descriptors / adjektiver er oversat på en måde så de ikke kan give mening i en template der hedder {descriptor} {noun} - eg Partnered --> I et forhold, næste step er at flagge dem, så den type descriptors kan komme efter {noun}. 
+Dette er ikke gjort (endnu) for denne version. Derfor ignorer "preference" indtil dette er gennemgået. 
 
-NB. man behøver ikke bruge det eksisterende holistic bias framework. Disse termer skal blot ses som en ressource.
+VIGTIGT :: Nogle descriptors er oversat på en måde så de ikke kan give mening i en template der hedder {descriptor} {noun} - f.eks. Partnered --> I et forhold, næste step er at flagge dem, så den type descriptors kan komme efter {noun}. 
+
+NB: dette er work-in-progress og alle termer vil blive grundigt gennemgået og opdateret løbende.
