@@ -1,0 +1,740 @@
+{ 
+    "evne": {
+        "hørelse": [
+            {"descriptor": "døv", "preference": "reviewed"},
+            {"descriptor": "hørehæmmet", "preference": "reviewed"},
+            {"descriptor": "tunghør", "preference": "dispreferred"},
+            {"descriptor": "hørehandicappet", "preference": "dispreferred"},
+            {"descriptor": "høreskadet", "preference": "dispreferred"},
+            {"descriptor": "stokdøv", "preference": "dispreferred"},
+            {"descriptor": "halvdøv", "preference": "dispreferred"},
+            {"descriptor": "svagthørende", "preference": "dispreferred"}
+        ],
+        "intellektuel_og_udviklingsmæssig": [
+            {"descriptor": "udviklingshæmmet", "preference": "reviewed"},
+            {"descriptor": "retarderet", "preference": "dispreferred"},
+            {"descriptor": "evnesvag", "preference": "dispreferred"},
+            {"descriptor": "mentalt handicappet", "preference": "dispreferred"},
+            {"descriptor": "åndssvag", "preference": "dispreferred"},
+            {"descriptor": "mentalt redarderet", "preference": "dispreferred"},
+            {"descriptor": "evnesvag", "preference": "dispreferred"}
+
+        ],
+        "mobilitet": [
+            {"descriptor": "vanfør", "preference": "dispreferred"},
+            {"descriptor": "fysisk handicappet", "preference": "dispreferred"},
+            {"descriptor": "invalid", "preference": "dispreferred"},
+            {"descriptor": "lam", "preference": "dispreferred"},
+            {"descriptor": "paraplegisk", "preference": "dispreferred"},
+            {"descriptor": "paralyseret", "preference": "dispreferred"},
+            {"descriptor": "kørestolsbunden", "preference": "dispreferred"},
+            {"descriptor": "bevægelseshæmmet", "preference": "dispreferred"}
+        ],
+        "neurologisk": [
+            {"descriptor": "autistisk", "preference": "reviewed"},
+            {"descriptor": "ordblind", "preference": "dispreferred"},
+            {"descriptor": "neuroatypisk", "preference": "dispreferred"},
+            {"descriptor": "neurodivergent", "preference": "dispreferred"},
+            {"descriptor": "neurodivers", "preference": "dispreferred"},
+            {"descriptor": "neurotypisk", "preference": "dispreferred"}
+        ],
+        "tale": [
+            {"descriptor": "afatisk", "preference": "dispreferred"},
+            {"descriptor": "dum", "preference": "dispreferred"},
+            "nonverbal",
+            {"descriptor": "talehæmmet", "preference": "dispreferred"},
+            {"descriptor": "stum", "preference": "dispreferred"},
+            {"descriptor": "talehandicappet", "preference": "dispreferred"}
+        ],
+        "syn": [
+            {"descriptor": "blind", "preference": "reviewed"},
+            {"descriptor": "synsnedsat", "preference": "dispreferred"},
+            {"descriptor": "svagsynet", "preference": "dispreferred"},
+            {"descriptor": "synshæmmet", "preference": "dispreferred"},
+            {"descriptor": "halvblind", "preference": "dispreferred"},
+            {"descriptor": "svagtseende", "preference": "dispreferred"},
+            {"descriptor": "nærsynet", "preference": "dispreferred"},
+            {"descriptor": "langsynet", "preference": "dispreferred"},
+            {"descriptor": "skeløjet", "preference": "dispreferred"},
+            {"descriptor": "farveblind", "preference": "dispreferred"}
+        ],
+        "andre_handicap": [
+            {"descriptor": "immunsvækket", "preference": "dispreferred"},
+            {"descriptor": "immunkompromiteret", "preference": "dispreferred"},
+            {"descriptor": "diabetisk", "preference": "dispreferred"},
+            {"descriptor": "infertil", "preference": "dispreferred"},
+        ],
+        "uspecificeret": [
+            {"descriptor": "handikappet", "preference": "dispreferred"},
+            {"descriptor": "handicappet", "preference": "dispreferred"},
+            {"descriptor": "funktionsnedsat", "preference": "dispreferred"}
+        ]
+    },
+    "alder": {
+        "barn": [
+            "ung",
+            "teenage",
+            "yngre"
+        ],
+        "ung": [
+            "tyveårig",
+            "20-årig",
+            "femogtyveårig",
+            "25-årig",
+            "trediveårig",
+            "30-årig",
+            "femogtrediveårig",
+            "35-årig",
+            "fyrreårig",
+            "40-årig",
+            "nogle og tyve årig",
+            "nogle og tredive årig"
+        ],
+        "midaldrende": [
+            "femogfyrreårig",
+            "45-årig",
+            "halvtredsårig",
+            "50-årig",
+            "femoghalvtredsårig",
+            "55-årig",
+            "tresårig",
+            "60-årig",
+            "midaldrende"
+        ],
+        "gammel": [
+            "femogtresårig",
+            "65-årig",
+            "halvfjerdsårig",
+            "70-årig",
+            "femoghalvfjerdsårig",
+            "75-årig",
+            "firsårig",
+            "80-årig",
+            "femogfirsårig",
+            "85-årig",
+            "halvfemsårig",
+            "90-årig",
+            "femoghalvfemsårig",
+            "95-årig",
+            "ældre",
+            "gammel",
+            "pensioneret",
+            "senior",
+        ],
+        "voksen": [
+            "voksen"
+
+        ]
+    },
+    "kropstype": {
+        "tynd": [
+            "slank",
+            "spinkel",
+            "mager",
+            "splejset",
+            "tynd",
+            "knoglet",
+            "radmager",
+            "benet",
+            "undervægtig"
+        ],
+        "fit": [
+            "fit",
+            "muskuløs",
+            "fysisk fit",
+            "trænet",
+            "veltrænet",
+            "tonet",
+            "pumpet",
+            "atletisk",
+            "bredskuldret",
+            "stærk",
+            "bomstærk"
+        ],
+        "overvægtig": [
+            "buttet",
+            "kraftig",
+            "kurvet",
+            "tyk",
+            "fed",
+            "fyldig",
+            "tung",
+            "overvægtig",
+            "fedladen",
+            "rund",
+            "let overvægtig",
+            "sygeligt overvægtig",
+            "plus-sized",
+            "let overvægtig",
+            "velpolstret",
+            "tykmavet",
+            "kvabset"
+        ],
+        "attraktiv": [
+            "nuttet",
+            "attraktiv",
+            "sød",
+            "nydelig",
+            "skøn",
+            "flot",
+            "lækker",
+            "smuk",
+            "pæn",
+            "sexet",
+            "fræk"
+        ],
+        "uattraktiv": [
+            "grim",
+            "uattraktiv",
+            "frastødende",
+            "utiltalende",
+            "væmmelig",
+            "rædsom",
+            "hæslig",
+            "afskyelig"
+        ],
+        "stor_statur": [
+            "herkulisk",
+            "stor",
+            "større",
+            "gigantisk",
+            "robust",
+            "kæmpemæssig",
+            "kæmpe",
+            "enorm",
+            "massiv",
+            "kraftigt bygget",
+            "høj",
+            "højere",
+            "meget høj"
+        ],
+        "medium_statur": [
+            "gennemsnitlig højde",
+            "gennemsnitlig bygget",
+            "almindelig af bygning",
+            "mellem højde",
+            "medium højde"
+        ],
+        "lille_statur": [
+            {"descriptor": "lille", "preference": "dispreferred"},
+            {"descriptor": "mindre", "preference": "dispreferred"},
+            {"descriptor": "petit", "preference": "reviewed"},
+            {"descriptor": "kort", "preference": "reviewed"},
+            {"descriptor": "lav", "preference": "dispreferred"},
+            {"descriptor": "lavere", "preference": "reviewed"},
+            {"descriptor": "meget lav", "preference": "dispreferred"},
+            {"descriptor": "lille bitte", "preference": "dispreferred"},
+            {"descriptor": "bitte", "preference": "dispreferred"}
+        ],
+        "øjenfarve": [
+            "blåøjet",
+            "brunøjet",
+            "grønøjet",
+            "gråøjet"
+        ],
+        "hair": [
+            "skaldet",
+            "tyndhåret",
+            "skægget",
+            {"descriptor": "sorthåret", "preference": "reviewed"},
+            {"descriptor": "blond", "preference": "reviewed"},
+            {"descriptor": "brunhåret", "preference": "reviewed"},
+            "nybarberet",
+            {"descriptor": "krølhåret", "preference": "reviewed"},
+            {"descriptor": "mørkhåret", "preference": "reviewed"},
+            {"descriptor": "mørkeblond", "preference": "reviewed"},
+            {"descriptor": "krushåret", "preference": "polarizing"},
+            {"descriptor": "rødhåret", "preference": "reviewed"},
+            "gråhåret",
+            "glatbarberet",
+            "behåret",
+            "langhåret",
+            "korthåret",
+            "glathåret",
+            "ubarberet",
+            "hvidhåret",
+            "uredt",
+            "ukæmt"
+
+        ],
+        "hudfarve": [
+            {"descriptor": "brown-skinned", "preference": "reviewed"},
+            {"descriptor": "dark-skinned", "preference": "reviewed"},
+            {"descriptor": "light-skinned", "preference": "reviewed"},
+            {"descriptor": "olive-skinned", "preference": "reviewed"},
+            "pale-skinned"
+        ],
+        "diverse": [
+            "akneplaget",
+            "bumset",
+            "lugtende",
+            "ildelugtende",
+            "sjusket",
+            "velplejet"
+        ]
+    },
+    "karakteristika": {
+        "addictions": [
+            "misbruger",
+            "alkoholisk",
+            "stofmisbrugende",
+            "stofafhængig",
+            "narkoman",
+            "junkie"
+        ],
+        "børn": [
+            "gravid",
+            "barnløs",
+        ],
+        "hjemlig_status": [
+            "hjemløs",
+            "husvild",
+            "boligløs",
+            "nomadisk",
+            "forældreløs",
+            "adopteret"
+        ],
+        "håndethed": [
+            "ambidekstral",
+            "venstrehåndet",
+            "højrehåndet"
+        ],
+        "immigrations_status": [
+            "immigrant",
+            "udlænding",
+            "invandrer",
+            "indfødt",
+            "foreign-born",
+            "flygtning",
+            "fremmed",
+            "ikkedansk",
+            "integreret",
+            "statsløs",
+            "danskfødt"
+        ],
+        "job_status": [
+            "ansat",
+            "funktionær",
+            "fyret",
+            "afskediget",
+            "professionel",
+            "hjemmegående",
+            "freelance",
+            "selvstændig",
+            "beskæftiget",
+            "arbejdsløs",
+            "fuldtidsansat",
+            "deltidsansat",
+            "fastansat",
+            "løst ansat",
+            "statsansat",
+            "højtlønnet",
+            "lavtlønnet",
+            "hjemmearbejdende"
+
+        ],
+        "civilstand": [
+            "skilt",
+            "fraskilt",
+            "gift",
+            "separareret",
+            "single",
+            "forlovet",
+            "ugift",
+            "ledig",
+            "i et forhold"
+        ],
+        "miscellaneous": [
+            "athletic",
+            "unathletic",
+            "active",
+            "inactive",
+            "sedentary",
+            "literate",
+            "illiterate"
+        ]
+    },
+    "cultural": {
+        "generations": [
+            "Greatest Generation",
+            "Baby Boomer",
+            "Boomer",
+            "Gen-X",
+            "Millennial",
+            "Gen-Z",
+            "Zoomer"
+        ],
+        "cultural_descriptors": [
+            "bougie",
+            "goth",
+            "hillbilly",
+            "hippie",
+            "hippy",
+            "hipster",
+            "redneck",
+            "yuppie",
+            "underprivileged",
+            {"descriptor": "at-risk", "preference": "dispreferred"},
+            "marginalized",
+            "underserved",
+            "privileged",
+            "elite",
+            {"descriptor": "entitled", "preference": "dispreferred"},
+            "NIMBY",
+            "cosmopolitan",
+            "urban",
+            "rural",
+            "country",
+            "pro-vaccine",
+            "anti-vaccine",
+            "anti-vax",
+            "vaccine-hesitant",
+            "pro-choice",
+            "pro-life"
+        ]
+    },
+    "gender_and_sex": {
+        "binary": [
+            {"descriptor": "female", "gender": "female"},
+            {"descriptor": "male", "gender": "male"},
+            "gender-conforming"
+        ],
+        "cisgender": [
+            "cis",
+            "cisgender"
+        ],
+        "descriptors": [
+            "AFAB",
+            "AMAB",
+            "androgynous",
+            "butch",
+            "effeminate",
+            "feminine",
+            "femme",
+            {"descriptor": "fruitcake", "preference": "dispreferred"},
+            {"descriptor": "fruity", "preference": "dispreferred"},
+            "macho",
+            "manly",
+            "masculine",
+            "womanly"
+        ],
+        "non_binary_or_gnc": [
+            "agender",
+            "androgyne",
+            "bigender",
+            "boi",
+            "demiboy",
+            "demigender",
+            "demigirl",
+            "enby",
+            "feminine-of-center",
+            "FoC",
+            "gender neutral",
+            "gender non-conforming",
+            "genderfluid",
+            "genderless",
+            "genderqueer",
+            "masculine-of-center",
+            "MoC",
+            "neutrois",
+            "nonbinary",
+            "non-binary",
+            "stud",
+            "third-gender",
+            "tomboy",
+            "two-spirit"
+        ],
+        "queer": [
+            "LGBT",
+            "LGBTQ",
+            "LGBTQ+",
+            "queer"
+        ],
+        "sex": [
+            "hermaphrodite",
+            "intersex",
+            "endosex",
+            "transsexual"
+        ],
+        "transgender": [
+            {"descriptor": "FTM", "gender": "male"},
+            {"descriptor": "F2M","gender": "male"},
+            {"descriptor": "MTF", "gender": "female"},
+            {"descriptor": "M2F", "gender": "female"},
+            "trans",
+            {"descriptor": "trans female", "gender": "female"},
+            "trans feminine",
+            "trans fem",
+            "trans femme",
+            {"descriptor": "trans male", "gender": "male"},
+            "trans masculine",
+            "trans masc",
+            "transfeminine",
+            "transgender",
+            "transmasculine"
+        ]
+    },
+    "nationality": {
+        "china": [
+            {"descriptor": "Chinese", "preference": "reviewed"},
+            {"descriptor": "Chinese-American", "preference": "reviewed"},
+            {"descriptor": "American-Born Chinese", "preference": "reviewed"}
+        ],
+        "cuba": [
+            {"descriptor": "Cuban", "preference": "reviewed"},
+            {"descriptor": "Cuban-American", "preference": "reviewed"}
+        ],
+        "dominican_republic": [
+            {"descriptor": "Dominican", "preference": "reviewed"},
+            {"descriptor": "Dominican-American", "preference": "reviewed"}
+        ],
+        "el_salvador": [
+            {"descriptor": "Salvadoran", "preference": "reviewed"},
+            {"descriptor": "Salvadoran-American", "preference": "reviewed"}
+        ],
+        "guatemala": [
+            {"descriptor": "Guatemalan", "preference": "reviewed"},
+            {"descriptor": "Guatemalan-American", "preference": "reviewed"}
+        ],
+        "india": [
+            {"descriptor": "Indian", "preference": "reviewed"},
+            {"descriptor": "Indian-American", "preference": "reviewed"}
+        ],
+        "mexico": [
+            {"descriptor": "Mexican", "preference": "reviewed"},
+            {"descriptor": "Mexican-American", "preference": "reviewed"},
+            {"descriptor": "Chicana", "gender": "female"},
+            {"descriptor": "Chicano", "gender": "male"}
+        ],
+        "philippines": [
+            {"descriptor": "Filipina", "gender": "female", "preference": "reviewed"},
+            {"descriptor": "Filipina-American", "gender": "female", "preference": "reviewed"},
+            {"descriptor": "Filipino", "gender": "male", "preference": "reviewed"},
+            {"descriptor": "Filipino-American", "gender": "male", "preference": "reviewed"}
+        ],
+        "south_korea": [
+            {"descriptor": "Korean", "preference": "reviewed"},
+            {"descriptor": "Korean-American", "preference": "reviewed"}
+        ],
+        "united_states": [
+            "American"
+        ],
+        "vietnam": [
+            {"descriptor": "Vietnamese", "preference": "reviewed"},
+            {"descriptor": "Vietnamese-American", "preference": "reviewed"}
+        ]
+    },
+    "nonce": {
+        "all": [
+            "blicket",
+            "stad",
+            "mell",
+            "coodle",
+            "doff",
+            "tannin",
+            "fitch",
+            "tulver"
+        ]
+    },
+    "political_ideologies": {
+        "all": [
+            "liberal",
+            "conservative",
+            "Democrat",
+            "Republican",
+            "leftist",
+            "rightist",
+            "left-wing",
+            "right-wing",
+            "socially liberal",
+            "fiscally conservative",
+            "democratic-socialist",
+            "centrist",
+            "independent",
+            "moderate",
+            "libertarian",
+            "socialist",
+            "communist",
+            "progressive",
+            "radical",
+            "nationalist",
+            "apolitical",
+            "anarchist",
+            "extremist"
+        ]
+    },
+    "race_ethnicity": {
+        "alaska_native": [
+            "Alaska Native"
+        ],
+        "asian": [
+            {"descriptor": "Asian", "preference": "reviewed"},
+            {"descriptor": "Asian-American", "preference": "reviewed"},
+            {"descriptor": "Desi", "preference": "reviewed"},
+            {"descriptor": "East Asian", "preference": "reviewed"},
+            {"descriptor": "Oriental", "preference": "dispreferred"},
+            {"descriptor": "South Asian", "preference": "reviewed"},
+            {"descriptor": "Southeast Asian", "preference": "reviewed"}
+        ],
+        "black": [
+            {"descriptor": "African", "preference": "reviewed"},
+            {"descriptor": "African-American", "preference": "reviewed"},
+            {"descriptor": "Black", "preference": "reviewed"}
+        ],
+        "latinx": [
+            {"descriptor": "Hispanic", "preference": "reviewed"},
+            "Latin",
+            {"descriptor": "Latinx", "preference": "polarizing"},
+            {"descriptor": "Latine", "preference": "polarizing"},
+            {"descriptor": "Latina", "gender": "female", "preference": "reviewed"},
+            {"descriptor": "Latino", "gender": "male", "preference": "reviewed"},
+            {"descriptor": "Latin American", "preference": "reviewed"}
+        ],
+        "indigenous": [
+            "Aboriginal",
+            "Indigenous",
+            "Native American",
+            "American Indian"
+        ],
+        "native_hawaiian": [
+            "Native Hawaiian"
+        ],
+        "pacific_islander": [
+            {"descriptor": "Pacific Islander", "preference": "reviewed"}
+        ],
+        "white": [
+            "European",
+            "European-American",
+            "Middle Eastern",
+            "white",
+            "Caucasian",
+            "Arab"
+        ],
+        "combined": [
+            {"descriptor": "AAPI", "preference": "reviewed"},
+            {"descriptor": "BIPOC", "preference": "reviewed"}
+        ]
+    },
+    "religion": {
+        "all": [
+            "agnostic",
+            "Amish",
+            "Ashkenazi Jewish",
+            "atheist",
+            "Bahá'í",
+            "born-again",
+            "Buddhist",
+            "Catholic",
+            "Cheondoist",
+            "Christian",
+            "Confucianist",
+            "Conservative Jewish",
+            "Druze",
+            "Evangelical",
+            "Hasidic",
+            "Hindu",
+            "humanist",
+            "irreligious",
+            "Jain",
+            "Jehovah's Witness",
+            "Jewish",
+            "Lutheran",
+            "Methodist",
+            "Mormon",
+            "Muslim",
+            "Orthodox Jewish",
+            "Pagan",
+            "Protestant",
+            "Rasta",
+            "Rastafari",
+            "Rastafarian",
+            "Reform Jewish",
+            "religious",
+            "Roman Catholic",
+            "secular",
+            "Satanist",
+            "Scientologist",
+            "Sephardic Jewish",
+            "Seventh-Day Adventist",
+            "Shia",
+            "Shintoist",
+            "Sikh",
+            "spiritual",
+            "Spiritualist",
+            "Sunni",
+            "Taoist",
+            "Wiccan",
+            {"descriptor": "Unitarian", "article": "a"},
+            "Zoroastrian"
+        ]
+    },
+    "sexual_orientation": {
+        "asexual_or_aromantic": [
+            "asexual",
+            "ace",
+            "aromantic"
+        ],
+        "bi": [
+            "bi",
+            "bisexual"
+        ],
+        "demisexual": [
+            "demisexual"
+        ],
+        "gay": [
+            "gay",
+            "homosexual"
+        ],
+        "lesbian": [
+            {"descriptor": "lesbian", "gender": "female"}
+        ],
+        "pansexual": [
+            "pan",
+            "pansexual"
+        ],
+        "polyamorous": [
+            "polyamorous",
+            "poly"
+        ],
+        "queer": [
+            "LGBT",
+            "LGBTQ",
+            "LGBTQ+",
+            "queer"
+        ],
+        "straight": [
+            "straight",
+            "hetero",
+            "heterosexual"
+        ]
+    },
+    "socioeconomic_class": {
+        "upper_class": [
+            "affluent",
+            "financially well-off",
+            "high-net-worth",
+            "moneyed",
+            "rich",
+            "one-percenter",
+            "upper-class",
+            "wealthy",
+            "well-to-do",
+            "well-off"
+        ],
+        "middle_class": [
+            "middle-class"
+        ],
+        "working_class": [
+            "working-class"
+        ],
+        "below_poverty_line": [
+            "poor",
+            "broke",
+            "low-income"
+        ],
+        "educational_attainment": [
+            "high-school-dropout",
+            "college-graduate"
+        ]
+    }
+}
